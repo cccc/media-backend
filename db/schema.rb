@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(version: 20140907121133) do
     t.datetime "updated_at"
     t.string   "title"
     t.string   "thumb_filename"
-    t.date     "date"
+    t.datetime "date"
     t.text     "description"
     t.string   "link"
     t.text     "persons"
